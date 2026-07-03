@@ -1,5 +1,4 @@
 //ts-worksheet-with-variables
-import Node from "./Node.js";
 
 export default class Graph {
     constructor(startPosition) {
