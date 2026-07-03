@@ -24,8 +24,8 @@ function knightMoves(startPosition, endPosition) {
     const knight = new Graph(startPosition);
     const route = knight.bfs(startPosition, endPosition);
     console.log(
-        `You made it in ${route.length} moves! Here's your path: ${route}`,
+        `You made it in ${route.length - 1} moves! Here's your path: ${route}`,
     );
 }
 
-knightMoves("a8", "h1");
+knightMoves("d4", "h6");
